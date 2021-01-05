@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "es6",
+        "module": "es6",
+        "sourceMap": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+    },
+}
