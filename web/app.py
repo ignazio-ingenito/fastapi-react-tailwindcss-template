@@ -26,10 +26,13 @@ def favicon():
 
 
 if __name__ == "__main__":
+    # use this if you need to debug through vscode
     # uvicorn.run(app,
     #             host="127.0.0.1",
     #             port=8080,
     #             log_level="info")
+
+    # use this if you need to reload the app at every change
     uvicorn.run("app:app",
                 host="127.0.0.1",
                 port=8080,

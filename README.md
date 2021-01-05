@@ -1,6 +1,6 @@
 # WebApp template
 
-This repo aimo help you building a webapp using
+This repo aim to help you to build a webapp using
 
 -  fastapi
 -  react
@@ -8,7 +8,7 @@ This repo aimo help you building a webapp using
 -  tailwindcss
 -  webpack
 
-You can clone the repo and start playing with it or you can start from scratch follwing the guide below.
+You can either clone the repo and start playing with it or start from scratch follwing the below guide.
 
 ## Python
 
