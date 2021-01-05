@@ -9,7 +9,7 @@ interface AppProps {
 const App = ({userName, language}: AppProps) => (
   <div className="app">
     <h1>
-      Hello world {userName} I speack {language} !!!
+      Hello world {userName} I speak {language} !!!
     </h1>
   </div>
 )
