@@ -1,4 +1,9 @@
 {
     "python.pythonPath": "/Users/ignazio/projects/mogees/tagger/lib/bin/python3.9",
+    "python.linting.enabled": true,
+    "python.formatting.autopep8Args": [
+        "--ignore",
+        "E402"
+    ],    
     "python.envFile": "${workspaceFolder}/.env"
 }
