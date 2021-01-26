@@ -276,10 +276,10 @@ docker run -p 8080:8080 -v `pwd`/web:/web tagger:latest
 #### sh into if not running
 ```docker run -it -p 8080:8080 tagger:latest /bin/bash```
 
-### Cloud run
+# Cloud run
 
-#### build and push a new image
+### build and push a new image
 ```gcloud builds submit --tag eu.gcr.io/bling-movetocloud/miner:latest```
 
-#### deploy an image
+### deploy an image
 ```gcloud beta run deploy --image eu.gcr.io/bling-movetocloud/miner:latest --platform managed --region europe-west1```
